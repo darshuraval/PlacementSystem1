@@ -1,0 +1,55 @@
+﻿@{
+    ViewData["Title"] = "Register";
+}
+
+<h1>Register</h1>
+
+@* <form action="/" method="post"> *@
+@*     <label for="FullName">Full Name:</label> *@
+@*     <input id="FullName" type="text" name="FullName" /><br /> *@
+@*     <label for="Email">Email:</label> *@
+@*     <input id="Email" type="text" name="Email" /><br /> *@
+@*     <label for="PhoneNumber">PhoneNumber:</label> *@
+@*     <input id="PhoneNumber" type="number" maxlength="10" name="PhoneNumber" placeholder="Enter Indian Number 10 digit" /><br /> *@
+@*     <label for="username">UserName:</label> *@
+@*     <input id="username" type="text" name="username" /><br /> *@
+@*     <label for="Role">Role:</label> *@
+@*     <select id="Role" name="Role"> *@
+@*         <option value="Student">Student</option> *@
+@*         <option value="TPOHead">TPO Head</option> *@
+@*         <option value="TPOCoordinator">TPO Coordinator</option> *@
+@*         <option value="Company">Company</option> *@
+@*         <option value="Admin">Admin</option> *@
+@*     </select><br /> *@
+@*     <label for="PasswordHash">Password:</label> *@
+@*     <input id="PasswordHash" type="password" name="PasswordHash" /><br /> *@
+@*     <label for="BirthOfDate">Birth Of Date:</label> *@
+@*     <input id="BirthOfDate" type="datetime" name="BirthOfDate" /><br /><br /> *@
+@*     <input id="Reset" type="reset" value="reset" /> *@
+@*     <input type="submit" name="name" value="Register" /> *@
+@* </form> *@
+
+<form action="/" method="post">
+    <label for="FullName">Full Name:</label>
+    <input id="FullName" type="text" name="FullName" value="Darshan Raval" /><br />
+    <label for="Email">Email:</label>
+    <input id="Email" type="text" name="Email" value="darahan95580@gmail.com" /><br />
+    <label for="PhoneNumber">PhoneNumber:</label>
+    <input id="PhoneNumber" type="number" maxlength="10" name="PhoneNumber" placeholder="Enter Indian Number 10 digit" value="9558023237" /><br />
+    <label for="username">UserName:</label>
+    <input id="username" type="text" name="username" value="DarshuRaval" /><br />
+    <label for="Role">Role:</label>
+    <select id="Role" name="Role">
+        <option value="Student" selected>Student</option>
+        <option value="TPOHead">TPO Head</option>
+        <option value="TPOCoordinator">TPO Coordinator</option>
+        <option value="Company">Company</option>
+        <option value="Admin">Admin</option>
+    </select><br />
+    <label for="PasswordHash">Password:</label>
+    <input id="PasswordHash" type="password" name="PasswordHash" value="123" /><br />
+    <label for="BirthOfDate">Birth Of Date:</label>
+    <input id="BirthOfDate" type="datetime" name="BirthOfDate" value="08/10/2003" /><br /><br />
+    <input id="Reset" type="reset" value="reset" />
+    <input type="submit" name="name" value="Register" />
+</form>
